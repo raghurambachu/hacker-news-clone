@@ -1,0 +1,85 @@
+@import "reset";
+@import "variables";
+@import "general";
+
+
+.app-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: #F6F6EF;
+    margin: 0.5rem auto 0;
+    .app-header{
+        background-color: #F06314;
+        .header-flex,.nav-menu,.brand-anchor{
+            align-items: center;
+        }
+        a{
+            color: #000;
+            font-weight: bold;
+        }
+        .brand-logo{
+            width: 32px;
+            height: 32px;
+        }
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .nav{
+            margin-left: 1.5rem;
+        }
+        .nav-item{
+            margin-left: 1rem;
+            // text-decoration: underline;
+        }
+      
+    }
+    
+}
+
+a.active{
+    text-decoration: underline;
+    color: wheat;
+    background: wheat;
+}
+
+.route-container{
+    padding: 1rem;
+    .route-outlet{
+       .story{
+           color: rgb(61, 60, 60);
+           padding: 0.5rem 0;
+       } 
+       a{
+           color:rgb(106, 109, 112)
+       }
+       .left{
+           margin-right: 0.5rem;
+       }
+       .top,.bottom{
+           margin: 0.15rem 0;
+       }
+    }
+    .nested-comment-0{
+        padding: 0.5rem 0;
+        margin-left: 1rem;
+    }
+    .nested-comment-1{
+        padding: 0.5rem 0;
+        margin-left: 2rem;
+    }
+    .nested-comment-2{
+        padding: 0.5rem 0;
+        margin-left: 3rem;
+    }
+    .nested-comment-3{
+        padding: 0.5rem 0;
+        margin-left: 4rem;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    
+}

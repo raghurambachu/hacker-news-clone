@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.app-container {
+  max-width: 1350px;
+  margin: 0 auto;
+  background-color: #F6F6EF;
+  margin: 0.5rem auto 0;
+}
+.app-container .app-header {
+  background-color: #F06314;
+}
+.app-container .app-header .header-flex, .app-container .app-header .nav-menu, .app-container .app-header .brand-anchor {
+  align-items: center;
+}
+.app-container .app-header a {
+  color: #000;
+  font-weight: bold;
+}
+.app-container .app-header .brand-logo {
+  width: 32px;
+  height: 32px;
+}
+.app-container .app-header img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.app-container .app-header .nav {
+  margin-left: 1.5rem;
+}
+.app-container .app-header .nav-item {
+  margin-left: 1rem;
+}
+
+a.active {
+  text-decoration: underline;
+  color: wheat;
+  background: wheat;
+}
+
+.route-container {
+  padding: 1rem;
+}
+.route-container .route-outlet .story {
+  color: #3d3c3c;
+  padding: 0.5rem 0;
+}
+.route-container .route-outlet a {
+  color: #6a6d70;
+}
+.route-container .route-outlet .left {
+  margin-right: 0.5rem;
+}
+.route-container .route-outlet .top, .route-container .route-outlet .bottom {
+  margin: 0.15rem 0;
+}
+.route-container .nested-comment-0 {
+  padding: 0.5rem 0;
+  margin-left: 1rem;
+}
+.route-container .nested-comment-1 {
+  padding: 0.5rem 0;
+  margin-left: 2rem;
+}
+.route-container .nested-comment-2 {
+  padding: 0.5rem 0;
+  margin-left: 3rem;
+}
+.route-container .nested-comment-3 {
+  padding: 0.5rem 0;
+  margin-left: 4rem;
+}
+.route-container .bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
